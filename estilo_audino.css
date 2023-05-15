@@ -9,7 +9,15 @@ body {
     margin: 5px;
     padding: 15px 32px;
               }
-
+p {
+    text-align: center;
+    text-justify: distribute-all-lines;
+    background-color: black;
+    color: white;
+    padding: 15px;
+    border: 0.5px dotted white ;
+    margin: 5px;
+   }
 text {
     text-align: center;
     text-justify: distribute-all-lines;
@@ -54,4 +62,7 @@ p1 {
     border-width: 1px;
     border-style: solid;
     border-color: transparent;
+}
+p2 {
+    font-style: italic;
 }

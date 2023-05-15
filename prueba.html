@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Los peregrinos</title>
+    <link rel="stylesheet" type= "text/css" href="estilo_audino.css">
+    <script src="acciones.js"></script>
+ </head>
+
+<body>
+   
+<tr id="papel">
+    <h1> Los Peregrinos</h1> 
+    <br>
+    <h2 class="con_borde">...presentan:
+        <br>
+         </h2>
+         <h3> ROMPIENDO EL HIMEN</h3>
+</tr>
+<img src="los3.jpg"
+alt="(Portada del álbum musical Rompiendo el Himen, de Los Peregrinos, dibujada por Enrique Breccia)"
+width="440"
+height="424"
+>
+
+<button class="readMore_btn" id="hideText_btn" onclick="mostrarTexto()"> Leer sobre REH </button>
+<div id="texto_Eol" style="display: none;">
+  <ul>
+    <li>
+      <span onclick="desplegarCancion('El soldado')">El soldado</span>
+      <a href="ruta_al_archivo_el_soldado.mp3" download>Descargar</a>
+    </li>
+    <li>
+      <span onclick="desplegarCancion('La memoria del bisonte')">La memoria del bisonte</span>
+      <a href="ruta_al_archivo_la_memoria_del_bisonte.mp3" download>Descargar</a>
+    </li>
+    <li>
+      <span onclick="desplegarCancion('Desafío al destino')">Desafío al destino</span>
+      <a href="ruta_al_archivo_desafio_al_destino.mp3" download>Descargar</a>
+    </li>
+    <!-- Agrega más canciones según sea necesario -->
+
+  </ul>
+
+  <p> Podés descargar el disco en: <a href="jhvdsajvaduyas.xxx">jhvdsajvaduyas.xxx</a> o encargarlo en formato Disco compacto (si nos quedan copias) al siguiente mail: leviatan@tutanota.com</p>
+
+  <a href="javascript:void(0);" onclick="ocultarTexto();">(leer menos)</a>
+</div>
+
+</body>
+</html>
