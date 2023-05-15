@@ -1,5 +1,5 @@
 head {
-      background-color: green;
+ background-color: green;
 }
 
 body {
@@ -52,6 +52,7 @@ h2 {
 }
 h3 {
  font-size: x-large;
+ color: black;
 }
 
 p1 {
@@ -66,3 +67,10 @@ p1 {
 p2 {
     font-style: italic;
 }
+picture {
+    display: block;
+    margin: 0 auto;
+    max-width: 100%;
+    width: 80%;
+    width: auto;
+  }
